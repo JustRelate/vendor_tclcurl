@@ -4,7 +4,9 @@ Installation:
     -> make
     -> make install
 
-    lib-Verzeichnis nach External/tclcurl/<OS>/<Version>/kopieren.
+    lib-Verzeichnis mit
+    	tar cjf <version>.tbz2 -C /tmp/tclcurl lib
+    in External/tclcurl/<OS> einpacken.
 
 2) TclSh
     -> export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/tmp/curl/lib 
